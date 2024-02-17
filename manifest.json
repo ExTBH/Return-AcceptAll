@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Return AcceptAll Back",
+  "version": "1.0",
+  "description": "Return the Accept All Button back cuz who wants to check all 20 checkboxes.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Accept All"
+  },
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://learn.reboot01.com/*"
+  ]
+}

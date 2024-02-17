@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(57, 57, 57);
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h6 {
+    margin-top: auto;
+    margin-bottom: 0;
+    color: rgb(201, 201, 201);
+}
+
+a {
+    color: rgb(103, 103, 235);
+}
+
+button {
+    background-color: rgb(103, 103, 235);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(91, 91, 232);
+    color: white;
+}
